@@ -1,0 +1,120 @@
+.work-card-div{
+    display: flex;
+    /* My style */
+    margin: 50px;
+
+    position: relative;
+    width: 70%;
+    background: linear-gradient(90deg, rgba(252, 252, 252, 0.1) -4.93%, rgba(252, 252, 252, 0.1) 19.86%, rgba(255, 255, 255, 0) 104.35%);
+    border-radius: 20px;
+}
+
+.work-card-text{
+    width: 75%;
+}
+.work-card-btn{
+    position: relative;
+    width: 25%;
+}
+.work-name{
+    padding: 30px 0 10px 30px;
+    font-size: 32px;
+    color: white;
+}
+
+.work-desc{
+    font-size: 15px;
+    /* background-color: blue; */
+    line-height: 150%;
+    width: 95%;
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.work-link-btn{
+    position: absolute;
+    top: 40%;
+    right: 25%;
+
+    width: 50%;
+    height: 42px;
+
+    background: #00909E;
+    border-radius: 50px;
+
+    box-shadow: inset 0 0 0 0 #27496d;
+    transition: all 0.5s ease-in-out;
+}
+
+.work-link-btn:hover{
+    color: #00909e;
+    box-shadow: inset 215px 0 0 0 #27496d;
+}
+
+.work-link-div{
+    width: fit-content;
+    height: fit-content;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    /* background-color: black; */
+    padding-top: 8px;
+    margin: auto;
+}
+
+#work-link{
+    margin-top: 10px;
+    color: #EEEEEE;;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+#work-link:hover{
+    color: #29d9e9;
+    transition: all 0.3s ease-in;
+}
+
+
+@media ( max-width: 800px ){
+    .work-card-div{
+        position: relative;
+        width: 317px;
+        height: fit-content;
+
+        background: linear-gradient(149.07deg, rgba(255, 255, 255, 0.1) -21.1%, rgba(223, 222, 222, 0.1) 45.29%, rgba(7, 7, 7, 0) 100.43%);
+        border-radius: 30px;
+
+        flex-direction: column;
+    }
+
+    .work-card-text{
+        width: 100%;
+    }
+
+    .work-desc{
+        font-size: 14px;
+        padding-top: 10px;
+        width: 80%;
+    }
+    
+    .work-name{
+        /* background-color: blue; */
+        padding-top: 60px;
+        width: 90%;
+    }
+
+    .work-card-btn{
+        width: 260px;
+        margin: 0;
+        padding: 0 0 30px 0;
+    }
+
+    .work-link-btn{
+        position: relative;
+        top: 0;
+        left: 25px;
+    }
+}

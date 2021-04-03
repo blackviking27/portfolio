@@ -1,0 +1,63 @@
+.human-svg-container{
+    width: 50%;
+    height: fit-content;
+}
+
+.human-svg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#bulb{
+    transform-origin: top;
+    transform-box: fill-box;
+    animation: swing 2.5s infinite linear;
+}
+
+@keyframes light {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#leaf1, #leaf2{
+    animation:  wavy 2s infinite linear;
+    transform-origin: bottom;
+}
+
+@keyframes swing{
+    0%{
+        transform: rotateZ(-4deg);
+    }
+    50%{
+        transform: rotateZ(4deg);
+    }
+    100%{
+        transform: rotateZ(-4deg);
+    }
+}
+
+@keyframes wavy{
+    0%{
+        transform: skewX(-2deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    100%{
+        transform: skewX(-2deg);
+    }
+}
+
+@media (max-width: 1000px){
+    .human-svg-container{
+        width: 100%;
+    }
+}

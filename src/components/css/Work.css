@@ -1,0 +1,103 @@
+.work-div{
+    color: white;
+    /* margin-left: 8vw; */
+}
+
+
+/* CSS for writeup section */
+
+.writeups-div{
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+}
+
+.writeups-text{
+    width: 60%;
+}
+
+.writeup-heading{
+    font-size: 50px;
+    color: #ff3e55;
+    display: flex;
+    justify-content: center;
+}
+
+.writeup-context{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.writeup-link-div{
+
+    width:20%;
+    height: 42px;
+
+    background: #00909E;
+    border-radius: 50px;
+
+    box-shadow: inset 0 0 0 0 #27496d;
+    transition: all 0.3s ease-in-out;
+}
+
+.writeup-link-div:hover{
+    color: #0e3b3f;
+    box-shadow: inset 200px 0 0 0 #27496d;
+}
+
+.writeup-link-middle{
+    margin-top: 10px;
+    /* width: fit-content; */
+    display: flex;
+    justify-content: center;
+}
+
+.writeup-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease-in;
+    /* background-color: red; */
+}
+
+.writeup-link:hover{
+    color: #29d9e9;
+}
+
+
+/* End for CSS for Writeup */
+
+
+/* CSS for project section */
+
+.projects-div{
+    /* background-color: red; */
+    /* width: 100%; */
+    margin-top: 30px;
+    /* margin-bottom: 300px; */
+}
+
+.work-heading{
+    display: flex;
+    justify-content: center;
+    /* padding-left: 20px; */
+    font-size: 50px;
+    color: #ff3e55;
+    /* background-color: blue; */
+}
+
+.work-list{
+    /* background-color: blue; */
+    /* width: 80%; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media ( max-width: 800px ){
+    .writeup-link-div{
+        width: 200px;
+    }
+}

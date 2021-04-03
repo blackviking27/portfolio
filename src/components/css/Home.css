@@ -1,0 +1,42 @@
+.home-div{
+    display: flex;
+    position: relative;
+    width: 100%;
+    color: white;
+    /* background-color: red; */
+    height: 90%;
+}
+
+.heading-content{
+    position: relative;
+    width: 60%;
+    /* background-color: blue; */
+    margin-top: 20%;
+    margin-left: 7%;
+
+}
+
+.title-container{
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 1.8em;
+}
+
+@media ( max-width: 1000px){
+    .home-div{
+        flex-direction: column;
+        /* background-color: blue; */
+        height: fit-content;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    .title-container{
+        font-size: 20px;
+        width: 100%;
+    }
+}
