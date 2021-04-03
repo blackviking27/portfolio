@@ -13,10 +13,15 @@ export default function Work(){
         })
     }, [])
 
-    const projects = [{
+    const projects = [
+    {
         name: 'Password Check',
         url: 'https://passcheck.netlify.app/',
         description: 'This app tests the strength of your password and also provides a feature to generate a random strong password.This project is created with React and is open sourced.',
+    },{
+        name: 'Portfolio',
+        url: 'https://new-ab.netlify.app/',
+        description: 'This is a React project which utilises many front end technology for smooth user experience. This is my personal portfolio website which includes all the work I have done do far.'
     },{
         name: 'Netflix Clone',
         url: 'https://github.com/blackviking27/Netflix-clone',
