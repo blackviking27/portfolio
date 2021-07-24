@@ -38,6 +38,14 @@ export default function Work(){
         name: 'Task manager App',
         url: 'https://github.com/blackviking27/Weather-App',
         description: 'It\'s flask app which keeps track of tasks. You can add or delete the activites that you want to do for the day in this app. '
+    },{
+        name: "CryptoMon",
+        url : "https://addons.mozilla.org/en-US/firefox/addon/crypto-monitor/",
+        description: "It is Firefox extension which allows you to monitor real time cryptocurrency rates."
+    },{
+        name: "Hulu Clone",
+        url : "https://hulu-clone-build.vercel.app/",
+        description: "It is a responsive clone of Hulu home page utilizing TMDB API to fetch data and display. It is built upon Next JS."
     }
 ]
 
