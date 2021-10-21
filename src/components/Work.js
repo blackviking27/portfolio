@@ -46,6 +46,10 @@ export default function Work(){
         name: "Hulu Clone",
         url : "https://hulu-clone-build.vercel.app/",
         description: "It is a responsive clone of Hulu home page utilizing TMDB API to fetch data and display. It is built upon Next JS."
+    },{
+        name: "Amazon Clone",
+        url : "https://amazon-clone-nine-tan.vercel.app",
+        description: "Responsive Clone of Amazon made using Next JS and Tailwind CSS. The app has the ability to sign in a user and maintain track of orders. Payment method is implemented using Stripe which provides fast and safe transaction."
     }
 ]
 
